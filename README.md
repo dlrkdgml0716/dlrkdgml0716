@@ -9,16 +9,15 @@
 
 ### Featured Projects
 
-#### 🍚 [bappul-msa](https://github.com/dlrkdgml0716/bappul-msa) — 학식 예약 플랫폼 (캡스톤, 6명+, 2학기 진행)
+#### 🍚 [밥플](https://github.com/dlrkdgml0716/bappul-msa) — 학식 예약 플랫폼 (캡스톤, 6명, 2학기 진행)
 **3학년 2학기에 Flutter 프론트엔드로 참여한 모놀리식 학식 예약 서비스를, 4학년 1학기에 백엔드로 포지션을 옮겨 MSA 구조로 마이그레이션한 캡스톤 프로젝트.** 유지보수성·확장성이라는 MSA의 장점을 학식 예약 도메인에 직접 적용하기 위해 백엔드 팀원들과 공동으로 설계·구현. **하이브리드 캐시 설계를 학술 논문(한국정보기술학회)으로 정리하여 제출.**
 
-- **포지션 전환** — 3-2 Flutter 프론트엔드 → 4-1 Java/Spring 백엔드. 백엔드 전환을 위해 Java/Spring을 독학으로 학습.
 - **모놀리식 → MSA 마이그레이션 공동 설계** — 백엔드 팀원들과 도메인 경계, 서비스 분리 기준, 인증·인가 게이트웨이 구조를 함께 설계.
 - **Caffeine(L1) + Redis(L2) 하이브리드 캐시** — JVM 로컬 캐시로 응답 지연 최소화, Redis로 인스턴스 간 정합성 확보. Redis Pub/Sub 기반 캐시 무효화로 MSA 환경에서의 stale read 방지.
 - **실험 기반 검증** — 캐시 적용 전/후 응답 시간 비교 및 무효화 시나리오별 동작 검증을 학술 논문에 정량적 결과로 포함.
-- **AI 에이전트 통합** — 학식 추천 기능에 AI 에이전트 연동.
+- **AI 에이전트 통합** — 혼밥 매칭 기능과 사장님 매장 관리 기능에 AI 에이전트 연동.
 
-`Java` `Spring Boot` `Spring Cloud` `Caffeine` `Redis` `MySQL` `Docker` `Gradle` `Flutter (3-2)`
+`Java` `Spring Boot` `Spring Cloud` `Caffeine` `Redis` `MySQL` `Docker` `Gradle` `Flutter`
 
 #### 🎨 [The_Pixel_War](https://github.com/dlrkdgml0716/The_Pixel_War) — 실시간 협업 픽셀 배치 게임
 지도 위 동일 좌표에 다수 사용자가 동시에 픽셀을 찍는 환경에서 **동시성 제어, 캐시 계층, 실시간 브로드캐스팅** 세 축의 상호작용을 다룬 모놀리스 프로젝트.
@@ -52,15 +51,7 @@
 `Docker` · `AWS (EC2, S3)` · `Linux`
 
 **Tools**
-`IntelliJ IDEA` · `Git / GitHub` · `Postman` · `draw.io`
-
----
-
-### Currently Learning
-
-- **관찰성** — Prometheus, Grafana, Spring Actuator + Micrometer
-- **테스트 코드** — JUnit, Mockito, 동시성 시나리오 통합 테스트
-- **메시지 브로커** — Kafka 기반 비동기 도메인 이벤트 처리
+`IntelliJ IDEA` · `Git / GitHub` · `Postman` · `StarUML`
 
 ---
 
